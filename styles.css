@@ -1,0 +1,98 @@
+body{
+    background-color: darkblue;
+}
+.box{
+    background-color: lightblue;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    transform: translate(31%,20%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.card{
+    background-color: cornsilk;
+    width: 80%;
+    height: 75%;
+    position: relative;
+    transform: translate(13%,17%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow:hidden;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#comma{
+    background-color: cornsilk;
+    flex: 30%;
+    float: left;
+    overflow:hidden;
+}
+#corner{
+    background-color: lightgray;
+    float: right;
+    margin:-76px;
+    width:237px;
+    height:120px;
+    transform:rotate(45deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#twitter{
+    color: blue; 
+    padding-top: 70px; 
+    padding-left: 135px; 
+    transform: rotate(325deg); 
+    margin-top: 50px; 
+    animation: rotate 1s ;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(270deg);
+    }
+}
+#twitter:hover{
+    color: hotpink;
+}
+#quote{
+    background-color: cornsilk;
+    flex: 37%;
+    width: 85%;
+    margin: auto;
+    font-family: 'Dancing Script';
+    font-size: x-large;
+    padding: 10px;
+    box-sizing: border-box;
+    color: grey;
+}
+#author{
+    background-color: cornsilk;
+    flex: 15%;
+    text-align: right;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: gray;
+}
+#button{
+    flex: 10%;
+}
+button{
+    width: 100%; 
+    height: 100%;
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: floralwhite;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: auto;
+    border: none;
+}
+button:hover{
+    background-color: darkblue;
+    color: salmon;
+}
